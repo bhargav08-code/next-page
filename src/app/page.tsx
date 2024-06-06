@@ -3,6 +3,8 @@ import Features from "@/components/Features";
 import AboutUs from "@/components/AboutUs";
 import Testimonial from "@/components/Testimonial";
 import Upcoming from "@/components/Upcoming";
+import People from "@/components/People";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -12,6 +14,8 @@ export default function Home() {
       <AboutUs />
       <Testimonial />
       <Upcoming />
+      <People />
+      <Footer />
     </main>
   );
 }

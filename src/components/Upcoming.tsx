@@ -1,50 +1,50 @@
 "use client";
 import Link from "next/link";
 import { HoverEffect } from "./ui/card-hover-effect";
-
+import { Button } from "./ui/moving-border";
 function Upcoming() {
   const featuredWebinars = [
     {
-      title: "Understanding Music Theory",
+      title: "Mastering Cloud Storage",
       description:
-        "Dive deep into the fundamentals of music theory and enhance your musical skills.",
-      slug: "understanding-music-theory",
+        "Learn the ins and outs of cloud storage and how to optimize your usage.",
+      slug: "mastering-cloud-storage",
       isFeatured: true,
     },
     {
-      title: "The Art of Songwriting",
+      title: "Advanced File Synchronization",
       description:
-        "Learn the craft of songwriting from experienced musicians and songwriters.",
-      slug: "the-art-of-songwriting",
+        "Discover advanced techniques for seamless file synchronization across devices.",
+      slug: "advanced-file-synchronization",
       isFeatured: true,
     },
     {
-      title: "Mastering Your Instrument",
+      title: "Data Security in the Cloud",
       description:
-        "Advanced techniques to master your musical instrument of choice.",
-      slug: "mastering-your-instrument",
+        "Understand the best practices for keeping your data secure in the cloud.",
+      slug: "data-security-in-the-cloud",
       isFeatured: true,
     },
     {
-      title: "Music Production Essentials",
+      title: "Real-Time Collaboration Tools",
       description:
-        "Get started with music production with this comprehensive overview.",
-      slug: "music-production-essentials",
+        "Explore tools and strategies for effective real-time collaboration with your team.",
+      slug: "real-time-collaboration-tools",
       isFeatured: true,
     },
     // Added two more webinars
     {
-      title: "Live Performance Techniques",
+      title: "Optimizing Workflow with CloudSyncPro",
       description:
-        "Enhance your live performance skills with expert tips and strategies.",
-      slug: "live-performance-techniques",
+        "Learn how to streamline your workflow using CloudSyncPro’s features.",
+      slug: "optimizing-workflow-with-cloudsyncpro",
       isFeatured: true,
     },
     {
-      title: "Digital Music Marketing",
+      title: "Scaling Your Business with Cloud Solutions",
       description:
-        "Learn how to promote your music effectively in the digital age.",
-      slug: "digital-music-marketing",
+        "Understand how to leverage cloud solutions to scale your business effectively.",
+      slug: "scaling-your-business-with-cloud-solutions",
       isFeatured: true,
     },
   ];
@@ -57,7 +57,7 @@ function Upcoming() {
             FEATURED WEBINARS
           </h2>
           <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">
-            Enhance Your Musical Journey
+            Elevate Your Cloud Experience
           </p>
         </div>
 
@@ -66,17 +66,19 @@ function Upcoming() {
             items={featuredWebinars.map((webinar) => ({
               title: webinar.title,
               description: webinar.description,
-              link: "/",
+              link: `/webinars/${webinar.slug}`,
             }))}
           />
         </div>
 
         <div className="mt-10 text-center">
-          <Link
-            href={"/"}
-            className="px-4 py-2 rounded border border-neutral-600 text-neutral-700 bg-white hover:bg-gray-100 transition duration-200"
-          >
-            View All webinars
+          <Link href={"/"}>
+            <Button
+              borderRadius="1.75rem"
+              className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
+            >
+              View All Webinars
+            </Button>
           </Link>
         </div>
       </div>

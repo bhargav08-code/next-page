@@ -12,21 +12,19 @@ const HeroSection = () => {
           fill="white"
         />
         <h1 className="mt-20 md:mt-0 text-4xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to bg-neutral-400">
-          Master Art Of Music
+          Sync Smarter, Work Better
         </h1>
         <p className="mt-4 font-normal text-base md:text-lg text-neutral-300 max-w-lg mx-auto">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-          mollitia, molestiae quas vel sint commodi repudiandae consequuntur
-          voluptatum laborum numquam blanditiis harum quisquam eius sed odit
-          fugiat iusto fuga praesentium.
+          Secure your files, simplify your workflow, and access your data
+          anywhere with CloudSyncPro
         </p>
         <div className="mt-4 ">
-          <Link href={"/courses"}>
+          <Link href={"/features"}>
             <Button
               borderRadius="1.75rem"
               className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
             >
-              Explore Courses
+              Explore
             </Button>
           </Link>
         </div>

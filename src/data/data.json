@@ -1,0 +1,52 @@
+{
+  "features": [
+    {
+      "id": 1,
+      "title": "Seamless Sync",
+      "slug": "seamless-sync",
+      "description": "Automatically sync your files across all devices with ease.",
+      "isFeatured": false,
+      "image": "/features/img1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Top-Notch Security",
+      "slug": "top-notch-security",
+      "description": "Keep your data safe with our advanced security features.",
+      "isFeatured": false,
+      "image": "/features/img2.jpeg"
+    },
+    {
+      "id": 3,
+      "title": "Anywhere Access",
+      "slug": "anywhere-access",
+      "description": "Access your files from anywhere in the world, anytime.",
+      "isFeatured": false,
+      "image": "/features/img3.png"
+    },
+    {
+      "id": 4,
+      "title": "Workflow Simplification",
+      "slug": "workflow-simplification",
+      "description": "Streamline your workflow with our intuitive tools and features.",
+      "isFeatured": false,
+      "image": "/features/img4.png"
+    },
+    {
+      "id": 5,
+      "title": "Version Control",
+      "slug": "version-control",
+      "description": "Track and manage different versions of your files effortlessly.",
+      "isFeatured": false,
+      "image": "/features/img5.png"
+    },
+    {
+      "id": 6,
+      "title": "Collaboration Tools",
+      "slug": "collaboration-tools",
+      "description": "Collaborate with your team in real-time with our built-in tools.",
+      "isFeatured": false,
+      "image": "/features/img6.jpg"
+    }
+  ]
+}

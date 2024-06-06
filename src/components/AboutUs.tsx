@@ -2,43 +2,43 @@
 import React from "react";
 import { StickyScroll } from "./ui/sticky-scroll-reveal";
 
-const musicSchoolContent = [
+const cloudSyncProContent = [
   {
-    title: "Discover Your Sound with Us: A Personal Journey in Music Mastery",
+    title: "Effortless Sync Across All Devices",
     description:
-      "Embark on a musical journey that’s uniquely yours. Our personalized instruction adapts to your individual needs, setting the stage for unparalleled growth and creativity. At our music school, your aspirations meet our dedicated support, creating a harmonious path to mastery.",
+      "Seamlessly sync your files across multiple devices without any hassle. CloudSyncPro ensures your data is always up-to-date, no matter where you are or what device you're using.",
   },
   {
-    title: "Discover Your Sound with Us: A Personal Journey in Music Mastery",
+    title: "Top-Notch Security",
     description:
-      "Embark on a musical journey that’s uniquely yours. Our personalized instruction adapts to your individual needs, setting the stage for unparalleled growth and creativity. At our music school, your aspirations meet our dedicated support, creating a harmonious path to mastery.",
+      "Protect your data with our state-of-the-art security features. CloudSyncPro uses advanced encryption and security protocols to keep your files safe from unauthorized access.",
   },
   {
-    title: "Discover Your Sound with Us: A Personal Journey in Music Mastery",
+    title: "Access Your Files Anytime, Anywhere",
     description:
-      "Embark on a musical journey that’s uniquely yours. Our personalized instruction adapts to your individual needs, setting the stage for unparalleled growth and creativity. At our music school, your aspirations meet our dedicated support, creating a harmonious path to mastery.",
+      "With CloudSyncPro, your files are always at your fingertips. Access your data from anywhere in the world, at any time, using any device with internet access.",
   },
   {
-    title: "Live Feedback & Engagement",
+    title: "Real-Time Collaboration",
     description:
-      "Immerse yourself in an interactive learning experience where feedback is immediate, just like real-time changes in a collaborative project. This approach enhances your understanding and mastery of music concepts and performance techniques.",
+      "Collaborate with your team in real-time. CloudSyncPro's collaboration tools enable you to work together seamlessly, no matter where your team members are located.",
   },
   {
-    title: "Cutting-Edge Curriculum",
+    title: "User-Friendly Interface",
     description:
-      "Our curriculum is continuously updated to include the latest music education trends and technologies, ensuring you’re always learning with the most current and effective methods. Say goodbye to outdated materials and welcome an education that evolves with the industry.",
+      "Enjoy a smooth and intuitive user experience with CloudSyncPro. Our user-friendly interface makes it easy for you to manage your files and settings without any technical expertise.",
   },
   {
-    title: "Limitless Learning Opportunities",
+    title: "Scalable Solutions for Your Business",
     description:
-      "With our expansive resource library and dynamic course offerings, you’ll never find yourself without something new to explore. Our platform provides continuous opportunities for growth, ensuring your musical skills are always advancing.",
+      "Whether you're a small business or a large enterprise, CloudSyncPro scales with your needs. Our flexible solutions are designed to grow with your business, ensuring you always have the storage and features you need.",
   },
 ];
 
 function WhyChooseUs() {
   return (
     <div>
-      <StickyScroll content={musicSchoolContent} />
+      <StickyScroll content={cloudSyncProContent} />
     </div>
   );
 }
