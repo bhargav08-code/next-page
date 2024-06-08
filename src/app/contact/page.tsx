@@ -27,8 +27,8 @@ function MusicSchoolContactUs() {
         </h1>
         <p className="text-neutral-500 max-w-lg mx-auto my-2 text-sm text-center">
           Have questions about CloudSyncPro? Need assistance with our features
-          or services? Don't hesitate to get in touch. Our team is here to
-          support you on your cloud journey. Reach out anytime; we're ready to
+          or services? Don&apos;t hesitate to get in touch. Our team is here to
+          support you on your cloud journey. Reach out anytime; we&apos;re ready to
           help!
         </p>
         <form onSubmit={handleSubmit} className="space-y-4 mt-4">
